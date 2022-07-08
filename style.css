@@ -18,14 +18,17 @@ body {
   margin-top: 25%;
 }
 .card-body {
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
-.card-body a {
+.button {
+  text-align: center;
   vertical-align: bottom;
 }
-@media (max-width: 900px) {
+@media (max-width: 982px) {
   #card-preview {
     flex-direction: column;
     align-items: center;
+    margin: 5% auto;
   }
 }
