@@ -22,12 +22,16 @@ body {
   flex-direction: column;
   height: 200px;
 }
+.card a {
+  width: 125px;
+}
 
 .button {
   text-align: center;
   position: absolute;
   top: 85%;
-  left: 8%;
+  width: 100%;
+  left: 0;
 }
 @media (max-width: 982px) {
   #card-preview {
