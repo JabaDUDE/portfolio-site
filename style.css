@@ -20,10 +20,14 @@ body {
 .card-body {
   display: flex;
   flex-direction: column;
+  height: 200px;
 }
+
 .button {
   text-align: center;
-  vertical-align: bottom;
+  position: absolute;
+  top: 85%;
+  left: 8%;
 }
 @media (max-width: 982px) {
   #card-preview {
