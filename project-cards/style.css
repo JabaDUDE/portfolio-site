@@ -11,6 +11,9 @@ body {
     rgba(11, 175, 200, 1) 100%
   );
 }
+h2 {
+  margin: 0 auto;
+}
 #card-preview {
   display: flex;
   gap: 10px;
