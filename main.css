@@ -55,10 +55,18 @@ h1 {
   justify-content: center;
   margin-top: 15%;
 }
+/*TODO: background color of card-body may be changed at later date, card-text and card-title color may also change at later date*/
 .card-body {
+  background-color: #7c849c;
   display: flex;
   flex-direction: column;
   height: 250px;
+}
+.card-text {
+  color: #64ffda;
+}
+.card-title {
+  color: #51ceb0;
 }
 .card a {
   width: 110px;
