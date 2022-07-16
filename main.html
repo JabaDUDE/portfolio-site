@@ -7,6 +7,8 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="sass/style.css" />
+    <script src="main.js" defer></script>
+    <!--Maybe doesn't work for getting dropdown to work-->
   </head>
   <body>
     <!--This will be the main portfolio html, all sections, one completed will be transferred to this html and their css added to MAIN.CSS-->
@@ -14,20 +16,48 @@
     <!--Top Part-->
     <header class="top-header">
       <!--TODO: create a navbar for resume on separate page? and every section-->
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <!--TODO: Dropdown menu doesn't work, find a way to fix it, symbol no longer appears once its within 'range'-->
-          <a
-            class="navbar-brand"
-            href="https://www.linkedin.com/in/dakota-keast-93a86984/"
-            target="_blank"
-            >D.K.</a
-          >
-          <button
+      <nav class="navbar navbar-expand-md navbar-light">
+        <!--TODO: Dropdown menu doesn't work, add the JS needed to use it, symbol no longer appears once its within 'range'-->
+        <a
+          class="navbar-brand"
+          href="https://www.linkedin.com/in/dakota-keast-93a86984/"
+          target="_blank"
+          >D.K.</a
+        >
+        <button
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          class="navbar-toggler"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a href="#" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item active">
+              <a href="#" class="nav-link">Technologies</a>
+            </li>
+            <li class="nav-item active">
+              <a href="#" class="nav-link">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
+            class="navbar-toggler"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
@@ -53,7 +83,7 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> -->
     </header>
     <!--Intro Section-->
     <section id="home"></section>

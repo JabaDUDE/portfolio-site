@@ -16,8 +16,9 @@ header {
   background-color: #0a192f;
 }
 .navbar-brand:hover {
-  color: #64ffda;
+  color: #64ffda !important;
 }
+
 /*EXPERIENCE SECTIONS*/
 .tasks {
   font-size: 14px;
