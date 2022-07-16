@@ -21,11 +21,18 @@ header {
 .navbar-brand:hover {
   color: #64ffda !important;
 }
-.nav-link {
+.nav-link,
+button {
   color: #64ffda !important;
 }
 .nav-link:hover {
   color: #51ceb0 !important;
+}
+button {
+  color: #64ffda !important;
+}
+.navbar-toggler {
+  border-color: #51ceb0 !important;
 }
 /*EXPERIENCE SECTIONS*/
 .tasks {
