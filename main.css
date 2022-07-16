@@ -58,7 +58,7 @@ img {
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
-  margin-top: 15%;
+  margin-top: 5%;
 }
 /*TODO: background color of card-body may be changed at later date, card-text and card-title color may also change at later date*/
 .card-body {
