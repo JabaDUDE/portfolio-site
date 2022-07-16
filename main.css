@@ -12,6 +12,9 @@ body {
 
 /*NAV SECTIONS*/
 /*TODO: Figure out how to change the text of the links to #ccd6f6*/
+header {
+  background-color: #0a192f;
+}
 .navbar {
   color: #ccd6f6;
 }
