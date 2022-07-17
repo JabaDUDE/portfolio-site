@@ -52,7 +52,7 @@ button {
   font-size: 16px;
 }
 .bigHeading {
-  color: #8892b0 !important;
+  color: #ccd6f6 !important;
   font-size: 80px;
 }
 /*EXPERIENCE SECTIONS*/
@@ -101,16 +101,16 @@ img {
 }
 /*TODO: background color of card-body may be changed at later date, card-text and card-title color may also change at later date*/
 .card-body {
-  background-color: #7c849c;
+  background-color: #8892b0;
   display: flex;
   flex-direction: column;
   height: 250px;
 }
 .card-text {
-  color: #64ffda;
+  color: #ccd6f6;
 }
 .card-title {
-  color: #51ceb0;
+  color: #ccd6f6;
 }
 .card a {
   width: 110px;
@@ -122,6 +122,14 @@ img {
   top: 80%;
   width: 95%;
   left: 5px;
+}
+.button a {
+  background-color: #64ffda;
+  color: #8892b0;
+  border: none;
+}
+.button a:hover {
+  background-color: #51ceb0;
 }
 @media (max-width: 982px) {
   .container {
