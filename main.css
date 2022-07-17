@@ -44,6 +44,17 @@ button {
 .custom-toggler.navbar-toggler:hover {
   border-color: #64ffda !important;
 }
+/*Intro Section*/
+#home {
+  margin-top: 10%;
+}
+.greeting {
+  font-size: 16px;
+}
+.bigHeading {
+  color: #8892b0 !important;
+  font-size: 80px;
+}
 /*EXPERIENCE SECTIONS*/
 .tasks {
   font-size: 14px;
