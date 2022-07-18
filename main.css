@@ -162,6 +162,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 15px;
+  margin: 2% auto;
 }
 .languages img {
   height: 75px;
