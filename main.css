@@ -55,6 +55,42 @@ button {
   color: #ccd6f6 !important;
   font-size: 80px;
 }
+/*About Me Section*/
+#aboutMe {
+  max-width: 1350px;
+}
+.biography h1 {
+  margin-bottom: 30px;
+}
+.about-section {
+  width: 100%;
+}
+.about-me-pic {
+  border-radius: 30px;
+  float: right;
+  height: 200px;
+  width: 200px;
+
+  margin-left: 10%;
+  margin-right: 250px;
+  margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+  .about-me-pic {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+  .image-div {
+    width: 100%;
+    text-align: center;
+    height: 250px;
+  }
+}
+.about-me-paragraph {
+  width: 650px;
+}
 /*EXPERIENCE SECTIONS*/
 .tasks {
   font-size: 14px;
@@ -139,6 +175,9 @@ img {
   }
 }
 /*LANGUAGES*/
+#languages {
+  margin-top: 10%;
+}
 .languages {
   display: flex;
   justify-content: center;
