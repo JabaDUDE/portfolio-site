@@ -18,6 +18,9 @@ header,
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   padding-right: 3px;
 }
+.number {
+  color: #51ceb0 !important;
+}
 .navbar-brand {
   color: #51ceb0 !important;
 }
@@ -55,6 +58,7 @@ button {
 }
 .greeting {
   font-size: 16px;
+  color: #64ffda !important;
 }
 .bigHeading {
   color: #ccd6f6 !important;
@@ -95,35 +99,7 @@ button {
 }
 .about-me-paragraph {
   width: 650px;
-}
-/*EXPERIENCE SECTIONS*/
-.tasks {
-  font-size: 14px;
-}
-h1,
-h4 {
-  color: #51ceb0 !important;
-}
-h6 {
-  color: #64ffda !important;
-}
-.divider {
-  border: 0;
-  height: 3px;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.75),
-    rgba(0, 0, 0, 0)
-  );
-}
-.task-list {
-  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/treehouse-marker.png);
-}
-span.location {
-  float: right;
-  margin-right: 25px;
-  color: #64ffda !important;
+  margin-left: 20px;
 }
 /*PROJECT CARDS*/
 img {
@@ -132,6 +108,7 @@ img {
 }
 .section-title {
   text-align: center;
+  color: #ccd6f6 !important;
 }
 .container {
   display: flex;
@@ -147,9 +124,7 @@ img {
   flex-direction: column;
   height: 250px;
 }
-.card-text {
-  color: #ccd6f6;
-}
+.card-text,
 .card-title {
   color: #ccd6f6;
 }
@@ -186,6 +161,7 @@ img {
 .languages {
   display: flex;
   justify-content: center;
+  gap: 15px;
 }
 .languages img {
   height: 75px;
@@ -195,3 +171,32 @@ img {
   font-size: 10px;
   text-align: center;
 }
+/*EXPERIENCE SECTIONS*/
+/* .tasks {
+  font-size: 14px;
+}
+
+h4 {
+  color: #51ceb0 !important;
+}
+h6 {
+  color: #64ffda !important;
+}
+.divider {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+.task-list {
+  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/treehouse-marker.png);
+}
+span.location {
+  float: right;
+  margin-right: 25px;
+  color: #64ffda !important;
+} */
