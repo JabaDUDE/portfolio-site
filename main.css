@@ -23,9 +23,12 @@ header,
 }
 .navbar-brand {
   color: #51ceb0 !important;
+  border: 1px solid #51ceb0;
+  padding-left: 7px;
 }
 .navbar-brand:hover {
   color: #64ffda !important;
+  border: 1px solid #64ffda;
 }
 .nav-link,
 button {
