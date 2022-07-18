@@ -9,11 +9,14 @@ body {
     system-ui, sans-serif !important;
   margin: 2% !important;
 }
-
+p {
+  font-size: 18px;
+}
 /*NAV SECTIONS*/
-header {
+header,
+.number {
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-  background-color: #0a192f;
+  padding-right: 3px;
 }
 .navbar-brand {
   color: #51ceb0 !important;
@@ -28,10 +31,7 @@ button {
 .nav-link:hover {
   color: #51ceb0 !important;
 }
-.number {
-  color: #64ffda !important;
-  padding-right: 3px;
-}
+
 .resume {
   border: #64ffda 1px solid !important;
   color: #64ffda !important;
