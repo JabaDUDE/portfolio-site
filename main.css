@@ -24,6 +24,12 @@ p {
     rgba(0, 0, 0, 0)
   );
 }
+/*TODO: Make site look better with below width */
+@media (min-width: 1500px) {
+  section {
+    margin: 0px auto;
+  }
+}
 /*NAV SECTIONS*/
 header,
 .number {
