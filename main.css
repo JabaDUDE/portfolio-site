@@ -98,6 +98,9 @@ button {
   margin-right: 250px;
   margin-bottom: 50px;
 }
+.about-me-paragraph {
+  margin-left: 20px;
+}
 @media (max-width: 768px) {
   .about-me-pic {
     float: none;
@@ -122,9 +125,7 @@ button {
     overflow-wrap: break-word;
   }
 }
-.about-me-paragraph {
-  margin-left: 20px;
-}
+
 /*PROJECT CARDS*/
 img {
   height: 150px;
