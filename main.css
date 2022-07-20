@@ -24,12 +24,7 @@ p {
     rgba(0, 0, 0, 0)
   );
 }
-/*TODO: Make site look better with below width */
-@media (min-width: 1500px) {
-  section {
-    margin: 0px auto;
-  }
-}
+
 /*NAV SECTIONS*/
 header,
 .number {
@@ -109,30 +104,6 @@ button {
 .about-me-paragraph {
   margin-left: 20px;
 }
-@media (max-width: 768px) {
-  .about-me-pic {
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-  }
-  .image-div {
-    width: 100%;
-    text-align: center;
-    height: 250px;
-  }
-}
-@media (max-width: 675px) {
-  .biography {
-    margin-left: 0;
-    width: 400px;
-  }
-  .about-me-paragraph {
-    margin: auto;
-    width: 400px;
-    overflow-wrap: break-word;
-  }
-}
 
 /*PROJECT CARDS*/
 img {
@@ -180,13 +151,7 @@ img {
 .button a:hover {
   background-color: #51ceb0;
 }
-@media (max-width: 982px) {
-  .container {
-    flex-direction: column;
-    align-items: center;
-    margin: 5% auto;
-  }
-}
+
 /*LANGUAGES*/
 #languages {
   margin: 3% auto;
@@ -223,14 +188,7 @@ img {
   width: 35px;
   height: 35px;
 }
-@media (min-width: 768px) {
-  .footer-social-icons {
-    flex-direction: column;
-    position: fixed;
-    top: 25%;
-    left: 0;
-  }
-}
+
 /*EXPERIENCE SECTIONS*/
 /* .tasks {
   font-size: 14px;
