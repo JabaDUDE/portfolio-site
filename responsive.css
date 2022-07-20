@@ -1,5 +1,5 @@
 /*General responsiveness for mobile devices */
-@media (max-width: 400px) {
+@media (max-width: 430px) {
   body {
     margin-left: 0 !important;
   }
@@ -7,9 +7,11 @@
     width: 400px;
     margin: 0 auto;
   }
+
   .languages img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+    flex-wrap: wrap;
   }
 }
 /*General responsiveness for bigger screens */
