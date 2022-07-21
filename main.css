@@ -71,8 +71,8 @@ button {
 }
 /*Intro Section*/
 #home {
-  margin-top: 25%;
-  height: 70vh;
+  margin-top: 20%;
+  height: 75vh;
 }
 .greeting {
   font-size: 16px;
@@ -83,9 +83,7 @@ button {
   font-size: 80px;
 }
 /*About Me Section*/
-#aboutMe {
-  margin-top: 15%;
-}
+
 .biography h1 {
   margin-bottom: 30px;
 }
