@@ -34,17 +34,7 @@
     height: 250px;
   }
 }
-@media (max-width: 675px) {
-  .biography {
-    margin-left: 0;
-    width: 400px;
-  }
-  .about-me-paragraph {
-    margin: auto;
-    width: 300px;
-    overflow-wrap: break-word;
-  }
-}
+
 /*PROJECT*/
 @media (max-width: 982px) {
   .container {
