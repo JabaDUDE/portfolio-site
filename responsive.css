@@ -54,4 +54,8 @@
     top: 25%;
     left: 0;
   }
+  #home {
+    padding: 10px;
+    margin-left: 75px;
+  }
 }
