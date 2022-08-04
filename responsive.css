@@ -22,6 +22,11 @@
   section {
     margin: 0px auto;
   }
+  .paragraphs {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 100px;
+  }
 }
 /*ABOUT ME*/
 @media (max-width: 768px) {
